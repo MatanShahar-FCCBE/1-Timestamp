@@ -28,5 +28,8 @@
     "gulp-typescript": "^3.2.2",
     "gulp-util": "^3.0.8",
     "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "moment": "^2.18.1"
   }
 }
