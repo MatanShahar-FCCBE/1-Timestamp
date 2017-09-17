@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var gutil = require("gulp-util");
 var typescript = require("gulp-typescript");
 
-var env = gutil.env.env || "dev";
+var env = gutil.env.env || process.env.env || "dev";
 
 var paths = {
     buildPath: "obj/build/" + env + "/",
