@@ -2,8 +2,10 @@
   "name": "1-timestamp",
   "version": "0.0.1",
   "description": "Timestamp challenge on FreeCodeCamp",
-  "main": "server/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "node dist/index.js",
+    "build": "gulp",
     "test": "test"
   },
   "repository": {
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/MatanShahar-FCCBE/1-Timestamp/issues"
   },
-  "homepage": "https://github.com/MatanShahar-FCCBE/1-Timestamp#readme"
+  "homepage": "https://github.com/MatanShahar-FCCBE/1-Timestamp#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.28",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^3.2.2",
+    "gulp-util": "^3.0.8",
+    "typescript": "^2.5.2"
+  }
 }
