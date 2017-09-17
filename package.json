@@ -1,0 +1,22 @@
+{
+  "name": "1-timestamp",
+  "version": "0.0.1",
+  "description": "Timestamp challenge on FreeCodeCamp",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MatanShahar-FCCBE/1-Timestamp.git"
+  },
+  "keywords": [
+    "FreeCodeCamp"
+  ],
+  "author": "Matan Shahar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatanShahar-FCCBE/1-Timestamp/issues"
+  },
+  "homepage": "https://github.com/MatanShahar-FCCBE/1-Timestamp#readme"
+}
