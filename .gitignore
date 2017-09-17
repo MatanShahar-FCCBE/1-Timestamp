@@ -288,4 +288,6 @@ __pycache__/
 *.xsd.cs
 
 # Exclude publish path
-[Dd]ist/
+dist/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
